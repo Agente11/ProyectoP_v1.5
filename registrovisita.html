@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="container"><br>
+		<a href="listadovisita.php" class="btn btn-primary" role="button">Regresar al Listado</a><br><br>
+		<h2>Registro</h2>
+		<form action="registrovisita.php" method="POST">
+			<div class="form-group">
+				<label for="Nro Visita">Nro Visita</label>
+				<input type="number" class="form-control" placeholder="	Nvisita" name="Nvisita">
+			</div>
+			<div class="form-group">
+				<label for="Usuario">Usuario</label>
+				<input type="text" class="form-control" placeholder="Usuario" name="Usuario">
+			</div>
+			<div class="form-group">
+				<label for="Entidad">Entidad</label>
+				<input type="text" class="form-control" placeholder="Entidad" name="ent">
+			</div>
+			<div class="form-group">
+				<label for="Contacto">Contacto</label>
+				<input type="text" class="form-control" placeholder="Contacto" name="Contacto">
+			</div>
+			<div class="form-group">
+				<label for="Telefono">Telefono</label>
+				<input type="number" class="form-control" placeholder="Telefono" name="telefono">
+			</div>
+			<div class="form-group">
+				<label for="Afiliaciones">Afiliaciones</label>
+				<input type="number" class="form-control" placeholder="Afiliaciones" name="afil">
+			</div>
+			<div class="form-group">
+				<label for="Codigo de Seguridad">Actividad</label>
+				<input type="text" class="form-control" placeholder="Actividad" name="Activ">
+			</div>
+			<button type="submit" class="btn btn-primary">Enviar</button>
+		</form>
+	</div><br>
+
+</body>
+</html>
